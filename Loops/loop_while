@@ -1,0 +1,21 @@
+// WHILE: É usado quando você quer repetir um bloco de código enquanto uma condição for verdadeira
+
+
+
+let valor = 2;
+
+while (valor < 5) {
+    console.log("VALOR ATUAL: " + valor)
+
+     valor++; 
+}
+
+// Do While a condição é verificada após a execução do bçoco de cógigo
+
+let contador =0;
+
+do{
+   console.log("Estenumero do contador atual é" + contador)
+   valor++; 
+
+}while(contador <4)
