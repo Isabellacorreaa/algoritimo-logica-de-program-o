@@ -15,7 +15,7 @@ alunos.forEach((nomes) => {
 
 const valores = [10, 500, 300];
 
-valores.forEach(valor) => {
+valores.forEach((valor) => {
      const conta = valor + 150;
      console.log("Valor ajustado:" + conta)
-}
+})
